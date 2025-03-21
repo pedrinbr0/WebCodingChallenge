@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  post "/schedule", to: "schedules#create"
+  post "/schedules", to: "schedules#create"
 end
